@@ -12,8 +12,7 @@ export const UsersGallery = () => {
 
   return (
     <ul>
-      {users &&
-        users.map(({ id, name, email }) => {
+      {users.map(({ id, name, email }) => {
           return (
             <li key={id}>
               <p>User name: {name}</p>
